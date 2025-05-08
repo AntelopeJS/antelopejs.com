@@ -1,0 +1,123 @@
+seo:
+  title: Antelopejs Framework
+  description: The ultra-modular Node.js solution for a scalable microservices architecture. Develop backend solutions faster and easier.
+
+hero:
+  title: Antelopejs
+  title_suffix: Framework
+  description: The ultra-modular Node.js solution for a scalable microservices architecture. Develop backend solutions faster and easier.
+  features:
+    - icon: i-mingcute:arrows-down-fill
+      description: Open source and forever free
+    - icon: i-mingcute:arrows-down-fill
+      description: Apache 2.0 licensed, free to use.
+      to: https://github.com/AntelopeJS/antelopejs.com/blob/main/LICENSE.md
+      target: _blank
+  links:
+    - icon: i-ph-book
+      label: Documentation
+      to: /docs/get-started
+    - icon: i-simple-icons-github
+      label: Github
+      to: https://github.com/AntelopeJS
+      target: _blank
+
+cli:
+  title: Start your projects in seconds
+  description: Create, launch, and manage your modules and projects in seconds, without getting lost in complex configurations. Focus solely on developing your application.
+
+features:
+  title: Why Antelopejs stands out
+  description: "More than a tool: a reliable technical foundation for building complex systems."
+  items:
+    - icon: i-antelope-opensource
+      title: Open Source
+      description: Free and maintained by an active community. Your project stays scalable and fully independent.
+    - icon: i-antelope-modules
+      title: Modular and flexible architecture
+      description: Based on versioned interfaces, it allows great interoperability and limitless reusability.
+    - icon: i-antelope-microservices
+      title: Microservice-focused
+      description: Every microservice can be deployed independently for increased flexibility, resilience, and scalability.
+    - icon: i-antelope-typed
+      title: Typed all the way
+      description: Complete typing on the entire stack reduces errors and renders the code clearer.
+    - icon: i-antelope-lightweight
+      title: Ultralight core
+      description: Functionality is kept out of the core, allowing greater flexibility and reduced complexity.
+    - icon: i-antelope-deploy
+      title: Easy to deploy
+      description: Designed for fast and frictionless deployment, with automation tools and Docker images ready to use.
+    - icon: i-antelope-universal-query
+      title: Universal query language
+      description: Antelopejs Query Language lets you interact with any supported NoSQL database intuitively, all while keeping the flexibility to switch at any time.
+    - icon: i-antelope-code
+      title: Expressive code
+      description: Reduce the number of useless lines of code and improve the developer experience with decorators. The code ends up more readable, clearer, and more effective.
+    - icon: i-antelope-saas
+      title: SaaS ready
+      description: Designed to develop reliable and scalable SaaS. The database management module allows you to define schemas to insure structured access to your data.
+
+roadmap:
+  title: Roadmap
+  description: Check out what's in progress and what's coming next to follow the development and anticipate new features.
+  items:
+    - label: "Interface unit test"
+      content: "Implement unit tests for all existing interfaces to ensure code correctness, improve reliability, and prevent regressions."
+      icon: "i-mingcute:arrow-right-fill"
+      status: "in-progress"
+      date: "in progress"
+    - label: "Typing improvements"
+      content: "Implement stronger type checking to reduce runtime errors and improve developer experience."
+      icon: "i-mingcute:arrow-right-fill"
+      status: "in-progress"
+      date: "in progress"
+    - label: "Interface consolidation"
+      content: "Gather community feedback on current beta interfaces to ensure completeness, then publish official versions."
+      icon: "i-mingcute:arrow-right-fill"
+      status: "in-progress"
+      date: "in progress"
+    - label: "Payment interface"
+      content: "Create a standardized payment interface for compatibility with all mainstream payment providers."
+      icon: "i-mingcute:time-fill"
+      status: "upcoming"
+      date: "planned"
+    - label: "Notification interface"
+      content: "Create a standardized notification interface for compatibility with services like Twilio and SendGrid."
+      icon: "i-mingcute:time-fill"
+      status: "upcoming"
+      date: "planned"
+    - label: "Bounty program"
+      content: "Create a structured program to incentivize external developers to contribute to specific features."
+      icon: "i-mingcute:time-fill"
+      status: "upcoming"
+      date: "planned"
+    - label: "Better logging"
+      content: "Implement more comprehensive and consistent logging to improve debugging and monitoring."
+      icon: "i-mingcute:time-fill"
+      status: "upcoming"
+      date: "planned"
+    - label: "Hot reload production"
+      content: "Enhance module hot reloading capabilities with stable tooling for safe use in production environments."
+      icon: "i-mingcute:time-fill"
+      status: "upcoming"
+      date: "planned"
+    - label: "Clustering tooling"
+      content: "Add utilities to simplify the process of clustering AntelopeJS applications."
+      icon: "i-mingcute:time-fill"
+      status: "upcoming"
+      date: "planned"
+
+modules:
+  title: A vast module store
+  title_suffix: Supported by Community
+
+cta:
+  title: Help grow Antelopejs
+  title_suffix: and its community
+  description: Contribute to the features you care about — by sharing ideas, submitting code, or reporting issues.
+  links:
+    - icon: i-simple-icons-github
+      label: Github
+      to: https://github.com/AntelopeJS
+      target: _blank

@@ -1,0 +1,10 @@
+name: mongodb
+description: MongoDB client module implementing the Database interface
+repo: antelopejs/mongodb
+npm: "@antelopejs/mongodb"
+icon: "/icons/antelope.svg"
+github: https://github.com/AntelopeJS/mongodb
+documentation: https://github.com/AntelopeJS/mongodb
+category: [Database]
+interface: [database, mongodb]
+official: true

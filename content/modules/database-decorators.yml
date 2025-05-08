@@ -1,0 +1,10 @@
+name: database-decorators
+description: Decorators for working with database models and schemas
+repo: antelopejs/database-decorators
+npm: "@antelopejs/database-decorators"
+icon: "/icons/antelope.svg"
+github: https://github.com/AntelopeJS/database-decorators
+documentation: https://github.com/AntelopeJS/database-decorators
+category: [Database]
+interface: [database-decorators]
+official: true

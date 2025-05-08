@@ -1,0 +1,10 @@
+name: redis
+description: Redis client module with scheduling capabilities
+repo: antelopejs/redis
+npm: "@antelopejs/redis"
+icon: "/icons/antelope.svg"
+github: https://github.com/AntelopeJS/redis
+documentation: https://github.com/AntelopeJS/redis
+category: [Cache]
+interface: [redis, redis-scheduler]
+official: true

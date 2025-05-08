@@ -1,0 +1,10 @@
+name: rethinkdb
+description: RethinkDB client module implementing the Database interface
+repo: antelopejs/rethinkdb
+npm: "@antelopejs/rethinkdb"
+icon: "/icons/antelope.svg"
+github: https://github.com/AntelopeJS/rethinkdb
+documentation: https://github.com/AntelopeJS/rethinkdb
+category: [Database]
+interface: [database, rethinkdb]
+official: true

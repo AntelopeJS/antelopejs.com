@@ -1,0 +1,10 @@
+name: data-api
+description: A flexible Data API interface that works with the API module
+repo: antelopejs/data-api
+npm: "@antelopejs/data-api"
+icon: "/icons/antelope.svg"
+github: https://github.com/AntelopeJS/data-api
+documentation: https://github.com/AntelopeJS/data-api
+category: [Api]
+interface: [data-api]
+official: true

@@ -1,0 +1,20 @@
+# Dependencies
+node_modules
+.pnpm-store
+.nuxt
+.output
+dist
+
+# Git
+.git
+
+# IDE
+.idea
+.vscode
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+content/docs 

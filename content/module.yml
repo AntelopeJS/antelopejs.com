@@ -1,0 +1,8 @@
+title: Let's build a large
+title_suffix: collection of modules
+description: Discover a set of ready-to-use modules designed to easily enhance and extend the features of Antelopejs. A constantly evolving collection driven by an active community.
+links:
+  - icon: i-simple-icons-github
+    label: Contribute
+    to: https://github.com/AntelopeJS/antelopejs
+    variant: subtle

@@ -1,0 +1,60 @@
+{
+  "name": "@antelopejs/docs",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AntelopeJS/docs.git"
+  },
+  "license": "Apache-2.0",
+  "packageManager": "pnpm@10.6.5",
+  "scripts": {
+    "build": "NODE_ENV=production NODE_OPTIONS='--max-old-space-size=4096' nuxt build",
+    "dev": "nuxt dev --host",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "typecheck": "nuxt typecheck",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,vue,md,json}\"",
+    "format:check": "prettier --check \"**/*.{js,jsx,ts,tsx,vue,md,json}\"",
+    "start-pm2": "pm2 startOrRestart ecosystem.json --only docs",
+    "start": "NODE_ENV=production PORT=3000 HOST=0.0.0.0 node .output/server/index.mjs"
+  },
+  "dependencies": {
+    "@iconify-json/lucide": "^1.2.32",
+    "@iconify-json/simple-icons": "^1.2.29",
+    "@iconify-json/vscode-icons": "^1.2.16",
+    "@nuxt/content": "^3.4.0",
+    "@nuxt/image": "^1.10.0",
+    "@nuxt/ui-pro": "^3.0.1",
+    "@rollup/plugin-yaml": "^4.1.2",
+    "@vueuse/nuxt": "^13.0.0",
+    "js-yaml": "^4.1.0",
+    "mermaid": "^11.6.0",
+    "nuxt": "^3.16.1",
+    "nuxt-llms": "0.1.0",
+    "nuxt-og-image": "^5.0.5",
+    "ofetch": "^1.4.1"
+  },
+  "devDependencies": {
+    "@iconify-json/ph": "^1.2.2",
+    "@nuxt/eslint": "^1.2.0",
+    "@types/js-yaml": "^4.0.9",
+    "eslint": "^9.22.0",
+    "prettier": "^3.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "typescript": "^5.8.2",
+    "vue-tsc": "^2.2.0"
+  },
+  "resolutions": {
+    "vue-tsc": "2.2.0",
+    "ipx": "^3.0.0"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "better-sqlite3"
+    ]
+  }
+}

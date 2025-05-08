@@ -1,0 +1,10 @@
+name: api
+description: A lightweight, flexible HTTP/WebSocket API module for AntelopeJS
+repo: antelopejs/api
+npm: "@antelopejs/api"
+icon: "/icons/antelope.svg"
+github: https://github.com/AntelopeJS/api
+documentation: https://antelopejs.com/AntelopeJS/api
+category: [Api]
+interface: [api]
+official: true

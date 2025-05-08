@@ -1,0 +1,10 @@
+name: stripe
+description: Stripe payment processing module with webhook support
+repo: antelopejs/stripe
+npm: "@antelopejs/stripe"
+icon: "/icons/antelope.svg"
+github: https://github.com/AntelopeJS/stripe
+documentation: https://github.com/AntelopeJS/stripe
+category: [Payment]
+interface: [stripe]
+official: true

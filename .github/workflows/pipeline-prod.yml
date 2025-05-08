@@ -1,0 +1,41 @@
+name: "Pipeline Production server"
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy_production:
+    name: Deploy to production Server
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: deploy production
+        uses: appleboy/ssh-action@v0.1.10
+        with:
+          host: 10.0.0.19
+          username: debian
+          password: ${{ secrets.VM_SSH_PASSWORD }}
+          port: 22
+          proxy_host: proxmox-main.altab.cloud
+          proxy_username: debian
+          proxy_password: ${{ secrets.PROXY_SSH_PASSWORD }}
+          proxy_port: 22
+          command_timeout: 30m
+          script: |
+            export NVM_DIR=~/.nvm
+            source ~/.nvm/nvm.sh
+
+            cd antelope/docs
+
+            git config pull.rebase false
+            git checkout main
+            git reset --hard main
+            git pull
+
+            pnpm i
+            pnpm build
+            pnpm start-pm2
+
+            pm2 save

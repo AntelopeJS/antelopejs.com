@@ -1,0 +1,229 @@
+title: Let's build a large
+title_suffix: collection of interfaces
+description: Discover a set of ready-to-use interfaces designed to easily enhance and extend the features of Antelopejs. A constantly evolving collection driven by an active community.
+links:
+  - icon: i-simple-icons-github
+    label: Contribute
+    to: https://github.com/AntelopeJS/antelopejs
+    variant: subtle
+
+interfaces:
+  - title: API
+    slug: api
+    description: A structured framework for building HTTP-based services using a clean, decorator-based approach to defining API endpoints and processing requests.
+    thumbnail: https://raw.githubusercontent.com/AntelopeJS/interface-api/refs/heads/main/.github/social-card.png
+    docs: https://github.com/AntelopeJS/interface-api
+    links:
+      - label: Documentation
+        to: https://github.com/AntelopeJS/interface-api
+        icon: i-ph-book
+        trailing: true
+        target: _blank
+      - label: Implementations
+        to: /modules?interface=api
+        variant: outline
+    features:
+      - title: Decorator-based API controller definition
+        icon: i-ph-globe-hemisphere-west
+      - title: Flexible HTTP request and response handling
+        icon: i-ph-lock
+      - title: Advanced parameter processing and injection
+        icon: i-ph-check
+
+  - title: Data API
+    slug: data-api
+    description: A framework for building data-driven APIs with a focus on CRUD operations, simplifying the creation of RESTful endpoints for your data models.
+    thumbnail: https://raw.githubusercontent.com/AntelopeJS/interface-data-api/refs/heads/main/.github/social-card.png
+    docs: https://github.com/AntelopeJS/interface-data-api
+    links:
+      - label: Documentation
+        to: https://github.com/AntelopeJS/interface-data-api
+        icon: i-ph-book
+        trailing: true
+        target: _blank
+      - label: Implementations
+        to: /modules?interface=data-api
+        variant: outline
+    features:
+      - title: Specialized controllers for data model operations
+        icon: i-ph-globe-hemisphere-west
+      - title: Built-in support for filtering, sorting, and pagination
+        icon: i-ph-lock
+      - title: Field access control and data validation
+        icon: i-ph-check
+
+  - title: Auth
+    slug: auth
+    description: A flexible framework for implementing authentication and authorization using decorator-based approach to securing API endpoints and managing user sessions.
+    thumbnail: https://raw.githubusercontent.com/AntelopeJS/interface-auth/refs/heads/main/.github/social-card.png
+    docs: https://github.com/AntelopeJS/interface-auth
+    links:
+      - label: Documentation
+        to: https://github.com/AntelopeJS/interface-auth
+        icon: i-ph-book
+        trailing: true
+        target: _blank
+      - label: Implementations
+        to: /modules?interface=auth
+        variant: outline
+    features:
+      - title: Decorator-based authentication for API endpoints
+        icon: i-ph-globe-hemisphere-west
+      - title: Comprehensive token handling and management
+        icon: i-ph-lock
+      - title: Parameter validation and authentication decorators
+        icon: i-ph-check
+
+  - title: Database
+    slug: database
+    description: A database-agnostic query interface that brings Antelope Query Language (AQL), allowing consistent data operations across different database implementations.
+    thumbnail: https://raw.githubusercontent.com/AntelopeJS/interface-database/refs/heads/main/.github/social-card.png
+    docs: https://github.com/AntelopeJS/interface-database
+    links:
+      - label: Documentation
+        to: https://github.com/AntelopeJS/interface-database
+        icon: i-ph-book
+        trailing: true
+        target: _blank
+      - label: Implementations
+        to: /modules?interface=database
+        variant: outline
+    features:
+      - title: Database-agnostic query interface (AQL)
+        icon: i-ph-globe-hemisphere-west
+      - title: Complete CRUD operations with type safety
+        icon: i-ph-lock
+      - title: Table and index management operations
+        icon: i-ph-check
+
+  - title: Database Decorators
+    slug: database-decorators
+    description: A framework for implementing database operations using TypeScript decorators, offering a flexible, object-oriented approach to defining database tables and models.
+    thumbnail: https://raw.githubusercontent.com/AntelopeJS/interface-database-decorators/refs/heads/main/.github/social-card.png
+    docs: https://github.com/AntelopeJS/interface-database-decorators
+    links:
+      - label: Documentation
+        to: https://github.com/AntelopeJS/interface-database-decorators
+        icon: i-ph-book
+        trailing: true
+        target: _blank
+      - label: Implementations
+        to: /modules?interface=database-decorators
+        variant: outline
+    features:
+      - title: TypeScript decorators for table and model definitions
+        icon: i-ph-globe-hemisphere-west
+      - title: Table modifiers for encryption, hashing, and localization
+        icon: i-ph-lock
+      - title: Integration with API controllers
+        icon: i-ph-check
+
+  - title: Rethink DB
+    slug: rethinkdb
+    description: A TypeScript-compatible interface for RethinkDB, providing access to RethinkDB functionality with a clean, promise-based API.
+    thumbnail: https://raw.githubusercontent.com/AntelopeJS/interface-rethinkdb/refs/heads/main/.github/social-card.png
+    docs: https://github.com/AntelopeJS/interface-rethinkdb
+    links:
+      - label: Documentation
+        to: https://github.com/AntelopeJS/interface-rethinkdb
+        icon: i-ph-book
+        trailing: true
+        target: _blank
+      - label: Implementations
+        to: /modules?interface=rethinkdb
+        variant: outline
+    features:
+      - title: Simple RethinkDB query execution
+        icon: i-ph-globe-hemisphere-west
+      - title: Type-safe return values using TypeScript generics
+        icon: i-ph-lock
+      - title: Full access to RethinkDB query builder (r)
+        icon: i-ph-check
+
+  - title: Mongo DB
+    slug: mongodb
+    description: A direct interface to MongoDB client functionality, providing type-safe access to MongoDB operations for AntelopeJS applications.
+    thumbnail: https://raw.githubusercontent.com/AntelopeJS/interface-mongodb/refs/heads/main/.github/social-card.png
+    docs: https://github.com/AntelopeJS/interface-mongodb
+    links:
+      - label: Documentation
+        to: https://github.com/AntelopeJS/interface-mongodb
+        icon: i-ph-book
+        trailing: true
+        target: _blank
+      - label: Implementations
+        to: /modules?interface=mongodb
+        variant: outline
+    features:
+      - title: Direct access to MongoDB client for native operations
+        icon: i-ph-globe-hemisphere-west
+      - title: Type-safe client access with TypeScript
+        icon: i-ph-lock
+      - title: Seamless integration with AntelopeJS ecosystem
+        icon: i-ph-check
+
+  - title: Stripe
+    slug: stripe
+    description: A structured framework for integrating Stripe payment processing capabilities into your AntelopeJS applications with a clean API for payments and webhooks.
+    thumbnail: https://raw.githubusercontent.com/AntelopeJS/interface-stripe/refs/heads/main/.github/social-card.png
+    docs: https://github.com/AntelopeJS/interface-stripe
+    links:
+      - label: Documentation
+        to: https://github.com/AntelopeJS/interface-stripe
+        icon: i-ph-book
+        trailing: true
+        target: _blank
+      - label: Implementations
+        to: /modules?interface=stripe
+        variant: outline
+    features:
+      - title: Complete payment intent management workflow
+        icon: i-ph-globe-hemisphere-west
+      - title: Real-time payment status monitoring
+        icon: i-ph-lock
+      - title: Secure webhook handling for Stripe events
+        icon: i-ph-check
+
+  - title: Redis
+    slug: redis
+    description: A promise-based interface for interacting with Redis, providing simplified access to Redis key-value storage, pub/sub messaging, and other Redis operations.
+    thumbnail: https://raw.githubusercontent.com/AntelopeJS/interface-redis/refs/heads/main/.github/social-card.png
+    docs: https://github.com/AntelopeJS/interface-redis
+    links:
+      - label: Documentation
+        to: https://github.com/AntelopeJS/interface-redis
+        icon: i-ph-book
+        trailing: true
+        target: _blank
+      - label: Implementations
+        to: /modules?interface=redis
+        variant: outline
+    features:
+      - title: Promise-based API for Redis operations
+        icon: i-ph-globe-hemisphere-west
+      - title: Reliable connection management with auto-reconnection
+        icon: i-ph-lock
+      - title: Full access to all Redis commands and features
+        icon: i-ph-check
+
+  - title: Redis Scheduler
+    slug: redis-scheduler
+    description: A robust interface for distributed task scheduling using Redis, enabling reliable execution of tasks across multiple application instances.
+    thumbnail: https://raw.githubusercontent.com/AntelopeJS/interface-redis-scheduler/refs/heads/main/.github/social-card.png
+    docs: https://github.com/AntelopeJS/interface-redis-scheduler
+    links:
+      - label: Documentation
+        to: https://github.com/AntelopeJS/interface-redis-scheduler
+        icon: i-ph-book
+        trailing: true
+        target: _blank
+      - label: Implementations
+        to: /modules?interface=redis-scheduler
+        variant: outline
+    features:
+      - title: Distributed task scheduling across application cluster
+        icon: i-ph-globe-hemisphere-west
+      - title: Custom task handlers with typed task information
+        icon: i-ph-lock
+      - title: Automatic retries with configurable failure handling
+        icon: i-ph-check

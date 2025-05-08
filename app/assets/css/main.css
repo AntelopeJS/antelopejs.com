@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@import "@nuxt/ui-pro";
+
+@source "../../../content/**/*";
+
+@theme static {
+  --font-sans: "Public Sans", sans-serif;
+
+  --color-antelope-50: #e9f1fb;
+  --color-antelope-100: #d3e2f8;
+  --color-antelope-200: #a8c6f0;
+  --color-antelope-300: #7ca9e9;
+  --color-antelope-400: #518de1;
+  --color-antelope-500: #2771da;
+  --color-antelope-600: #1e5aae;
+  --color-antelope-700: #164383;
+  --color-antelope-800: #0f2d57;
+  --color-antelope-900: #07162c;
+  --color-antelope-950: #040b16;
+}

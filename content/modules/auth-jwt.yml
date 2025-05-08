@@ -1,0 +1,10 @@
+name: auth-jwt
+description: Authentication and authorization module using JWT tokens
+repo: antelopejs/auth-jwt
+npm: "@antelopejs/auth-jwt"
+icon: "/icons/antelope.svg"
+github: https://github.com/AntelopeJS/auth-jwt
+documentation: https://github.com/AntelopeJS/auth-jwt
+category: [Auth]
+interface: [auth]
+official: true
