@@ -19,7 +19,7 @@
     "typecheck": "nuxt typecheck",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,vue,md,json}\"",
     "format:check": "prettier --check \"**/*.{js,jsx,ts,tsx,vue,md,json}\"",
-    "start-pm2": "pm2 startOrRestart ecosystem.json --only docs",
+    "start-pm2": "pm2 startOrRestart ecosystem.json --only antelopejs.com",
     "start": "NODE_ENV=production PORT=3000 HOST=0.0.0.0 node .output/server/index.mjs"
   },
   "dependencies": {
