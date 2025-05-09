@@ -47,12 +47,12 @@ To add your interface to the AntelopeJS interface collection:
    - `features`: Array of key features with titles and icons
 3. Submit a Pull Request to this repository
 
-## License
-
-This project is licensed under the Apache License 2.0
-
 ## Support
 
 - [GitHub Issues](https://github.com/AntelopeJS/docs/issues)
 - [Discord Community](https://discord.gg/antelopejs)
 - [Twitter](https://twitter.com/antelopejs)
+
+## License
+
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
