@@ -1,6 +1,6 @@
 import { createResolver, type useLogger } from "nuxt/kit";
 import { existsSync, promises as fsp } from "node:fs";
-import { executeWithConcurrency } from ".";
+import { executeWithConcurrency, parseReadmeAssets } from ".";
 import defu from "defu";
 import * as yml from "js-yaml";
 import { ofetch } from "ofetch";
@@ -153,6 +153,8 @@ export class ModuleLoader {
       async (mod) => {
         const dbModule = await moduleStorage.getModule(mod.name);
 
+        const readme = mod.readme ? parseReadmeAssets(mod.readme, mod.repo) : null;
+
         const moduleData: Module = {
           created_at: dbModule?.created_at ?? new Date(),
           updated_at: new Date(),
@@ -167,7 +169,7 @@ export class ModuleLoader {
           interface: mod.interface || [],
           stars: mod.repoInfo?.stargazers_count ?? null,
           downloads: mod.npmInfo?.downloads ?? null,
-          readme: mod.readme,
+          readme,
           official: mod.official,
           sponsor: mod.sponsor,
         };
