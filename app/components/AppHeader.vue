@@ -9,7 +9,6 @@ interface Props {
 const props = defineProps<Props>();
 const navigation = inject<Ref<ContentNavigationItem[]>>("navigation");
 const { header } = useAppConfig();
-const runtimeConfig = useRuntimeConfig();
 </script>
 
 <template>
@@ -28,9 +27,6 @@ const runtimeConfig = useRuntimeConfig();
           {{ header.title }}
         </span>
 
-        <div>
-          <UBadge :label="runtimeConfig.public.version" variant="subtle" size="sm" />
-        </div>
       </NuxtLink>
     </template>
 
