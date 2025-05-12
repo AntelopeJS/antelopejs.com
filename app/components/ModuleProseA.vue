@@ -22,15 +22,10 @@ const props = withDefaults(defineProps<Props>(), {
 });
 
 const route = useRoute();
-const { data: module } = useNuxtData(`module-${route.params?.slug}`);
+const { data: module } = useNuxtData<Module>(`module-${route.params?.slug}`);
 
 const href = computed(() => {
-  if (hasProtocol(props.href) || !module.value?.github) return joinURL(props.href, "blob");
-  return joinURL(
-    module.value.github,
-    "blob",
-    module.value.stats?.defaultBranch || "main",
-    props.href
-  );
+  if (hasProtocol(props.href) || !module.value?.github) return props.href;
+  return joinURL(module.value.github, "blob", "main", props.href);
 });
 </script>
