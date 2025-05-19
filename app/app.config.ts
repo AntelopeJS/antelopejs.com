@@ -57,7 +57,7 @@ export default defineAppConfig({
     title: "Table of Contents",
     bottom: {
       title: "Community",
-      edit: "https://github.com/AntelopeJS/docs/tree/main/content",
+      edit: "https://github.com/AntelopeJS/antelopejs.com/tree/main/content",
       links: [
         {
           icon: "i-lucide-star",
