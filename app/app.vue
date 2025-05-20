@@ -49,12 +49,12 @@ const links = computed(() => [
     active: false,
   },
   {
-    label: "Modules",
-    to: "/modules",
-  },
-  {
     label: "Interfaces",
     to: "/interfaces",
+  },
+  {
+    label: "Modules",
+    to: "/modules",
   },
   {
     label: "Roadmap",
