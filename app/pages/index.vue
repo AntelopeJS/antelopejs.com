@@ -24,8 +24,6 @@ useSeoMeta({
   ogImage: joinURL(site.url, "/social-card.png"),
   twitterImage: joinURL(site.url, "/social-card.png"),
 });
-
-const md = "npx @antelopejs/core project init <project-name>";
 </script>
 
 <template>
@@ -103,14 +101,10 @@ const md = "npx @antelopejs/core project init <project-name>";
       <!-- CLI -->
       <UPageSection :title="page.cli?.title" :description="page.cli?.description">
         <div class="flex flex-col items-center justify-center gap-2">
-          <ProsePre :code="md">
-            {{ md }}
-          </ProsePre>
           <UButton
-            label="More commands"
-            to="/docs/cli/introduction"
+            label="Get started"
+            to="/docs/cli/introduction#installation"
             icon="i-ph-arrow-right"
-            variant="subtle"
             trailing
             size="xl"
           />
