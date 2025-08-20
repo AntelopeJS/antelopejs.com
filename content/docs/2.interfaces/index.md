@@ -32,4 +32,8 @@ Want your modules to play nice with others? Here's how to create and share inter
 ::card{icon="i-ph-git-branch" title="Publishing Interfaces" to="/docs/interfaces/publishing-interfaces"}
 Learn the process of publishing new or updated interfaces to the AntelopeJS ecosystem and registering alternative implementations.
 ::
+
+::card{icon="i-ph-test-tube" title="Testing Interfaces" to="/docs/interfaces/testing-interfaces"}
+How to test interfaces in AntelopeJS, ensuring your modules work seamlessly with the defined contracts
+::
 ::
