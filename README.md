@@ -51,8 +51,8 @@ To add your interface to the AntelopeJS interface collection:
 
 ## Support
 
-- [GitHub Issues](https://github.com/AntelopeJS/docs/issues)
-- [Discord Community](https://discord.gg/antelopejs)
+- [GitHub Issues](https://github.com/AntelopeJS/antelopejs/issues)
+- [Discord Community](https://discord.gg/sjK28QHrA7)
 - [Twitter](https://twitter.com/antelopejs)
 
 ## License
