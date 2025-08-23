@@ -12,9 +12,17 @@ class ModuleStorage {
       return;
     }
 
-    const modules = await fsp.readFile(this.cacheDir, "utf-8");
+    const fileContent = await fsp.readFile(this.cacheDir, "utf-8");
+    this.moduleRecord = await this.parseModulesFile(fileContent);
+  }
 
-    this.moduleRecord = JSON.parse(modules);
+  private async parseModulesFile(fileContent: string): Promise<Record<string, Module>> {
+    try {
+      return JSON.parse(fileContent) as Record<string, Module>;
+    } catch {
+      await fsp.writeFile(this.cacheDir, "{}");
+      return {};
+    }
   }
 
   constructor() {
