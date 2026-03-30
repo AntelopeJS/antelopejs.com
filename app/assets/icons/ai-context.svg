@@ -1,0 +1,17 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<rect x="4" y="20" width="24" height="24" rx="3" fill="currentColor" opacity="0.3"/>
+<rect x="36" y="20" width="24" height="24" rx="3" fill="currentColor" opacity="0.3"/>
+<rect x="20" y="4" width="24" height="16" rx="3" fill="currentColor"/>
+<path d="M32 20V32" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+<path d="M32 32H16" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+<path d="M32 32H48" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+<circle cx="32" cy="56" r="6" fill="currentColor"/>
+<path d="M32 44V50" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="64" height="64" fill="white"/>
+</clipPath>
+</defs>
+</svg>

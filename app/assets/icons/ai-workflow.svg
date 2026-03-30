@@ -1,0 +1,20 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<rect x="4" y="22" width="16" height="20" rx="3" fill="currentColor"/>
+<path d="M8 28H16M8 32H14M8 36H16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" class="text-background" style="stroke: var(--ui-bg, white)"/>
+<path d="M20 32H26" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+<polygon points="28,32 25,28 25,36" fill="currentColor"/>
+<rect x="30" y="22" width="16" height="20" rx="3" stroke="currentColor" stroke-width="3" fill="none"/>
+<path d="M36 29L38 31L42 27" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M46 32H52" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+<polygon points="54,32 51,28 51,36" fill="currentColor"/>
+<path d="M56 24L60 20M56 32H62M56 40L60 44" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+<circle cx="12" cy="10" r="6" fill="currentColor" opacity="0.5"/>
+<path d="M9 10L11 12L15 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="stroke: var(--ui-bg, white)"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="64" height="64" fill="white"/>
+</clipPath>
+</defs>
+</svg>

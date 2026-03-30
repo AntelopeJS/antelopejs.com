@@ -39,6 +39,15 @@ features:
     - icon: i-antelope-microservices
       title: Microservice-focused
       description: Every microservice can be deployed independently for increased flexibility, resilience, and scalability.
+    - icon: i-antelope-ai-contracts
+      title: AI-ready contracts
+      description: Interfaces define clear contracts with built-in test suites. AI generates an implementation, runs the contract tests, and validates correctness automatically.
+    - icon: i-antelope-ai-context
+      title: Focused context, better output
+      description: Each module depends only on interface contracts, not on other modules' code. AI works with minimal context and produces accurate implementations.
+    - icon: i-antelope-ai-workflow
+      title: Generate, test, ship
+      description: Clear interfaces, automatic contract testing, and hot module reloading create the ideal AI workflow. Generate a module, validate it against the test suite, and hot-reload it live.
     - icon: i-antelope-typed
       title: Typed all the way
       description: Complete typing on the entire stack reduces errors and renders the code clearer.
@@ -57,56 +66,6 @@ features:
     - icon: i-antelope-saas
       title: SaaS ready
       description: Designed to develop reliable and scalable SaaS. The database management module allows you to define schemas to insure structured access to your data.
-
-roadmap:
-  title: Roadmap
-  description: Check out what's in progress and what's coming next to follow the development and anticipate new features.
-  items:
-    - label: "Interface unit test"
-      content: "Implement unit tests for all existing interfaces to ensure code correctness, improve reliability, and prevent regressions."
-      icon: "i-mingcute:arrow-right-fill"
-      status: "in-progress"
-      date: "in progress"
-    - label: "Typing improvements"
-      content: "Implement stronger type checking to reduce runtime errors and improve developer experience."
-      icon: "i-mingcute:arrow-right-fill"
-      status: "in-progress"
-      date: "in progress"
-    - label: "Interface consolidation"
-      content: "Gather community feedback on current beta interfaces to ensure completeness, then publish official versions."
-      icon: "i-mingcute:arrow-right-fill"
-      status: "in-progress"
-      date: "in progress"
-    - label: "Payment interface"
-      content: "Create a standardized payment interface for compatibility with all mainstream payment providers."
-      icon: "i-mingcute:time-fill"
-      status: "upcoming"
-      date: "planned"
-    - label: "Notification interface"
-      content: "Create a standardized notification interface for compatibility with services like Twilio and SendGrid."
-      icon: "i-mingcute:time-fill"
-      status: "upcoming"
-      date: "planned"
-    - label: "Bounty program"
-      content: "Create a structured program to incentivize external developers to contribute to specific features."
-      icon: "i-mingcute:time-fill"
-      status: "upcoming"
-      date: "planned"
-    - label: "Better logging"
-      content: "Implement more comprehensive and consistent logging to improve debugging and monitoring."
-      icon: "i-mingcute:time-fill"
-      status: "upcoming"
-      date: "planned"
-    - label: "Hot reload production"
-      content: "Enhance module hot reloading capabilities with stable tooling for safe use in production environments."
-      icon: "i-mingcute:time-fill"
-      status: "upcoming"
-      date: "planned"
-    - label: "Clustering tooling"
-      content: "Add utilities to simplify the process of clustering AntelopeJS applications."
-      icon: "i-mingcute:time-fill"
-      status: "upcoming"
-      date: "planned"
 
 modules:
   title: A vast module store

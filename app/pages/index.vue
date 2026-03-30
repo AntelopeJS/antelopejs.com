@@ -177,61 +177,6 @@ useSeoMeta({
       </UContainer>
     </div>
 
-    <!-- Roadmap -->
-    <UContainer>
-      <UPageSection
-        id="roadmap"
-        :title="page.roadmap?.title"
-        :description="page.roadmap?.description"
-        class="block w-full"
-      >
-        <div class="mx-auto flow-root w-full max-w-4xl">
-          <ul role="list" class="-mb-8">
-            <li
-              v-for="(event, index) in page.roadmap?.items"
-              :key="`event-${index}`"
-              class="relative flex gap-8 pb-8"
-            >
-              <div class="text-(--ui-bg)">
-                <span
-                  :class="[
-                    {
-                      'ring-primary-500/10 bg-(--ui-primary)': event?.status === 'done',
-                      'bg-(--ui-bg-inverted) ring-neutral-500/10': event?.status === 'in-progress',
-                      'bg-(--ui-bg)/20 text-(--ui-text) ring-neutral-500/10':
-                        event?.status === 'upcoming',
-                    },
-                    'flex size-8 items-center justify-center rounded-full ring-8',
-                  ]"
-                >
-                  <Icon :name="event?.icon" class="size-5" aria-hidden="true" />
-                </span>
-              </div>
-
-              <div class="flex min-w-0 flex-1 flex-col space-x-4 sm:flex-row sm:justify-between">
-                <UCollapsible :default-open="index === 0">
-                  <UButton
-                    :label="event?.label"
-                    variant="link"
-                    color="neutral"
-                    class="text-sm text-(--ui-text-muted)"
-                  />
-
-                  <template #content>
-                    <p class="py-6 pl-3 text-sm">{{ event?.content }}</p>
-                  </template>
-                </UCollapsible>
-
-                <div class="pl-3 text-sm whitespace-nowrap text-(--ui-text-dimmed) sm:text-right">
-                  <p>{{ event?.date }}</p>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </UPageSection>
-    </UContainer>
-
     <!-- CTA -->
     <UContainer>
       <UPageSection>

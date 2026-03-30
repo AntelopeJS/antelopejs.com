@@ -59,20 +59,6 @@ export default defineContentConfig({
             })
           ),
         }),
-        roadmap: z.object({
-          title: z.string(),
-          description: z.string(),
-          items: z.array(
-            z.object({
-              label: z.string(),
-              content: z.string(),
-              icon: z.string(),
-              status: z.enum(["done", "in-progress", "upcoming"]),
-              date: z.string(),
-              datetime: z.string(),
-            })
-          ),
-        }),
         modules: z.object({
           title: z.string(),
           title_suffix: z.string(),
