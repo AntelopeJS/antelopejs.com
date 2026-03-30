@@ -22,16 +22,22 @@ const links = computed(() => [
         icon: "i-ph-rocket-launch",
       },
       {
-        label: "Interfaces",
-        description: "Understand the interfaces that power Antelopejs architecture.",
-        to: "/docs/interfaces",
-        icon: "i-ph-plugs-connected",
+        label: "Concepts",
+        description: "Core concepts behind Antelopejs architecture.",
+        to: "/docs/concepts",
+        icon: "i-ph-lightbulb",
+      },
+      {
+        label: "Module Development",
+        description: "Create, test, and publish Antelopejs modules.",
+        to: "/docs/module-development",
+        icon: "i-ph-hammer",
       },
       {
         label: "Guides",
-        description: "Advanced guide to Antelopejs",
+        description: "Practical guides for building with Antelopejs",
         to: "/docs/guides",
-        icon: "i-ph-book",
+        icon: "i-ph-book-open",
       },
       {
         label: "CLI",
@@ -55,11 +61,6 @@ const links = computed(() => [
   {
     label: "Modules",
     to: "/modules",
-  },
-  {
-    label: "Roadmap",
-    to: "/#roadmap",
-    active: false,
   },
   {
     label: "Releases",

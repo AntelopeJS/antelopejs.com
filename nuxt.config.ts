@@ -134,9 +134,14 @@ export default defineNuxtConfig({
         contentFilters: [{ field: "path", operator: "LIKE", value: "/docs/get-started%" }],
       },
       {
-        title: "Interfaces",
+        title: "Concepts",
         contentCollection: "docs",
-        contentFilters: [{ field: "path", operator: "LIKE", value: "/docs/interfaces%" }],
+        contentFilters: [{ field: "path", operator: "LIKE", value: "/docs/concepts%" }],
+      },
+      {
+        title: "Module Development",
+        contentCollection: "docs",
+        contentFilters: [{ field: "path", operator: "LIKE", value: "/docs/module-development%" }],
       },
       {
         title: "Guides",

@@ -1,10 +1,10 @@
 import { existsSync, promises as fsp } from "node:fs";
-import defu from "defu";
 
 class ModuleStorage {
   private moduleRecord: Record<string, Module> = {};
   declare private cacheDir: string;
   private isInitialized: Promise<void>;
+  private writeQueue: Promise<void> = Promise.resolve();
 
   private async loadModulesCache() {
     if (!existsSync(this.cacheDir)) {
@@ -30,8 +30,11 @@ class ModuleStorage {
     this.isInitialized = this.loadModulesCache();
   }
 
-  private async saveModules() {
-    await fsp.writeFile(this.cacheDir, JSON.stringify(this.moduleRecord, null, 2));
+  private saveModules(): Promise<void> {
+    this.writeQueue = this.writeQueue.then(() =>
+      fsp.writeFile(this.cacheDir, JSON.stringify(this.moduleRecord, null, 2)),
+    );
+    return this.writeQueue;
   }
 
   /**
@@ -55,7 +58,7 @@ class ModuleStorage {
       throw new Error(`Module ${module.name} not found`);
     }
 
-    this.moduleRecord[module.name] = defu(this.moduleRecord[module.name], module);
+    this.moduleRecord[module.name] = { ...this.moduleRecord[module.name], ...module };
 
     await this.saveModules();
   }
