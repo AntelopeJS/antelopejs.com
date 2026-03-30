@@ -26,11 +26,6 @@ const links = computed(() => [
     to: "/modules",
   },
   {
-    label: "Roadmap",
-    to: "/#roadmap",
-    active: false,
-  },
-  {
     label: "Releases",
     to: "https://github.com/AntelopeJS/antelopejs/releases",
     target: "_blank",
