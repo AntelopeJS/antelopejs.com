@@ -27,4 +27,8 @@ Use the built-in logging system with severity levels, custom channels, and confi
 ::card{icon="i-ph-wrench" title="Core Utilities" to="/docs/concepts/core-utilities"}
 Discover utility functions for interface declarations, implementations, decorators, and module introspection.
 ::
+
+::card{icon="i-ph-book-open-text" title="Glossary" to="/docs/concepts/glossary"}
+Key terms and definitions used throughout the AntelopeJS documentation.
+::
 ::
