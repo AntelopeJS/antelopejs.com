@@ -16,7 +16,7 @@ Define interface contracts with InterfaceFunction, EventProxy, and RegisteringPr
 Run module tests, configure the test environment, and write isolated tests against interface contracts.
 ::
 
-::card{icon="i-ph-archive" title="Interface Registry" to="/docs/module-development/publishing"}
+::card{icon="i-ph-archive" title="Interface Registry" to="/docs/module-development/interface-registry"}
 Register interfaces and implementations in the official registry to make them discoverable through the CLI.
 ::
 ::
