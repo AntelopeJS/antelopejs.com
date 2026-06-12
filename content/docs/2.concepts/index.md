@@ -28,6 +28,10 @@ Use the built-in logging system with severity levels, custom channels, and confi
 Discover utility functions for interface declarations, implementations, decorators, and module introspection.
 ::
 
+::card{icon="i-ph-cpu" title="Runtime" to="/docs/concepts/runtime"}
+Inspect the runtime environment and register development servers for discovery by external tooling.
+::
+
 ::card{icon="i-ph-book-open-text" title="Glossary" to="/docs/concepts/glossary"}
 Key terms and definitions used throughout the AntelopeJS documentation.
 ::
